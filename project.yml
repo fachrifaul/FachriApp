@@ -10,8 +10,7 @@ targets:
     type: application
     platform: iOS
     sources:
-      - FachriApp/Codes
-      - FachriApp/Resources
+      - FachriApp
     scheme:
       testTargets:
         - FachriAppTests
