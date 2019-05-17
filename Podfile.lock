@@ -1,0 +1,34 @@
+PODS:
+  - Alamofire (4.8.1)
+  - Charts (3.2.1):
+    - Charts/Core (= 3.2.1)
+  - Charts/Core (3.2.1)
+  - Cuckoo (1.0.3)
+  - Nimble (8.0.1)
+  - Quick (2.1.0)
+
+DEPENDENCIES:
+  - Alamofire (= 4.8.1)
+  - Charts (= 3.2.1)
+  - Cuckoo
+  - Nimble
+  - Quick
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Charts
+    - Cuckoo
+    - Nimble
+    - Quick
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  Charts: f122fb70b19847fa5817d018b77d6c5a2296ab25
+  Cuckoo: eb8cd1bee8730af1cfa39e3e1305c32bc47fe4b8
+  Nimble: 45f786ae66faa9a709624227fae502db55a8bdd0
+  Quick: 4be43f6634acfa727dd106bdf3929ce125ffa79d
+
+PODFILE CHECKSUM: 81dba75116fb1d1fe434a7dd020f6b5a7d2afcbe
+
+COCOAPODS: 1.6.1
