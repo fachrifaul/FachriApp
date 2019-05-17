@@ -1,0 +1,47 @@
+name: FachriApp
+options:
+  bundleIdPrefix: com.fachrifaul
+  deploymentTarget: 
+    iOS: 10.0
+settings:
+  DEVELOPMENT_TEAM: AK67DH72N8
+targets:
+  FachriApp:
+    type: application
+    platform: iOS
+    sources:
+      - FachriApp/Codes
+      - FachriApp/Resources
+    scheme:
+      testTargets:
+        - FachriAppTests
+    dependencies:
+      - framework: Core.framework
+        implicit: true
+      - sdk: CoreText.framework
+    settings:
+      base:
+        INFOPLIST_FILE: FachriApp/Info.plist
+  FachriAppTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources: 
+      - FachriAppTests
+    dependencies:
+      - target: FachriApp
+
+Core:
+  platform: iOS
+  type: framework
+  sources:
+    - Core/
+  dependencies:
+    - sdk: CoreText.framework
+CoreTests:
+  type: bundle.unit-test
+  platform: iOS
+  sources: 
+    - CoreTests
+  dependencies:
+    - target: Core
+      
