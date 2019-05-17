@@ -15,7 +15,7 @@ targets:
       testTargets:
         - FachriAppTests
     dependencies:
-      - framework: Account.framework
+      - sdk: Account.framework
         implicit: true
       - framework: Core.framework
         implicit: true
