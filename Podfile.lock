@@ -10,9 +10,9 @@ PODS:
 DEPENDENCIES:
   - Alamofire (= 4.8.1)
   - Charts (= 3.2.1)
-  - Cuckoo
-  - Nimble
-  - Quick
+  - Cuckoo (= 1.0.3)
+  - Nimble (= 8.0.1)
+  - Quick (= 2.1.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -29,6 +29,6 @@ SPEC CHECKSUMS:
   Nimble: 45f786ae66faa9a709624227fae502db55a8bdd0
   Quick: 4be43f6634acfa727dd106bdf3929ce125ffa79d
 
-PODFILE CHECKSUM: 81dba75116fb1d1fe434a7dd020f6b5a7d2afcbe
+PODFILE CHECKSUM: b909888da2ddfb314599516f5806fb402f1f69dd
 
 COCOAPODS: 1.6.1

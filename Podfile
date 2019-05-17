@@ -23,7 +23,7 @@ target 'FachriApp' do
   use_frameworks!
   pods
 
-    target 'FachriAppTests' do
+  target 'FachriAppTests' do
     inherit! :search_paths
     test_helper_pods
   end
