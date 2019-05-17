@@ -1,5 +1,23 @@
 #!/bin/bash
 
+#Generate Core Module
+cd Core
 xcodegen generate
+
+#Generate Feature Module
+cd ..
+cd Account
+xcodegen generate
+
+#Generate App
+cd ..
+xcodegen generate
+
+#Cocoapods Install
 pod install
+
+#Workspace grouping
+cp -R "contents.xcworkspacedata" "FachriApp.xcworkspace/contents.xcworkspacedata" 
+
+#Open Project
 xed .

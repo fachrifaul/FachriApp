@@ -1,0 +1,23 @@
+name: Core
+options:
+  bundleIdPrefix: com.fachrifaul
+  deploymentTarget: 
+    iOS: 10.0
+settings:
+  DEVELOPMENT_TEAM: AK67DH72N8
+targets:
+  Core:
+    platform: iOS
+    type: framework
+    sources:
+      - Core/
+    dependencies:
+      - sdk: CoreText.framework
+  CoreTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources: 
+      - CoreTests/
+    dependencies:
+      - target: Core
+      

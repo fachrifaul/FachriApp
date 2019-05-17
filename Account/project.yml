@@ -1,0 +1,23 @@
+name: Account
+options:
+  bundleIdPrefix: com.fachrifaul
+  deploymentTarget: 
+    iOS: 10.0
+settings:
+  DEVELOPMENT_TEAM: AK67DH72N8
+targets:
+  Account:
+    platform: iOS
+    type: framework
+    sources:
+      - Account/
+    dependencies:
+      - sdk: CoreText.framework
+  AccountTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources: 
+      - AccountTests/
+    dependencies:
+      - target: Account
+      

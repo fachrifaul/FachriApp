@@ -7,6 +7,10 @@ def core_pods
   pod 'Charts', '3.2.1'
 end
 
+def account_pods
+  core_pods
+end
+
 def pods
   core_pods
   pod 'Alamofire', '4.8.1'
@@ -36,6 +40,16 @@ target 'Core' do
   core_pods
   
   target 'CoreTests' do
+    inherit! :search_paths
+    test_helper_pods
+  end
+end
+
+target 'Account' do
+  project 'Account/Account.xcodeproj'
+  account_pods
+  
+  target 'AccountTests' do
     inherit! :search_paths
     test_helper_pods
   end
