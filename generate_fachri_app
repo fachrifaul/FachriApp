@@ -22,5 +22,8 @@ pod install
 #Workspace grouping
 cp -R "contents.xcworkspacedata" "FachriApp.xcworkspace/contents.xcworkspacedata" 
 
+#Change mach-o to fake static
+./feature-module-static.rb
+
 #Open Project
 xed .
