@@ -9,6 +9,7 @@
 import UIKit
 import Alamofire
 import Core
+import Account
 
 class ViewController: UIViewController {
 
@@ -16,6 +17,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         Log.d("viewDidLoad")
+        AccountLog.d("viewDidLoad")
         
         Alamofire.request("https://httpbin.org/get").responseJSON { response in
             print("Request: \(String(describing: response.request))")   // original url request

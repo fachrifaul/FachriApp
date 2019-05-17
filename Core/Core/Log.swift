@@ -11,6 +11,6 @@ import Foundation
 public class Log {
     
     public static func d(_ text: String) {
-        print("#Debug : \(text)")
+        print("#Core_Debug : \(text)")
     }
 }

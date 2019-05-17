@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#Kill Xcode
+killall "Xcode"
+
 #Generate Core Module
 cd Core
 xcodegen generate
