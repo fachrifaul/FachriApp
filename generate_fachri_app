@@ -22,6 +22,15 @@ pod install
 #Workspace grouping
 cp -R "contents.xcworkspacedata" "FachriApp.xcworkspace/contents.xcworkspacedata" 
 
+
+xcodeproj="xcodeproj"
+command -v xcodeproj >/dev/null
+if [ $? -eq 1 ]; then
+echo >&2 "xcodeproj not found, please install xcodeproj. sudo gem install xcodeproj"
+xcodeproj="&>";
+exit 0
+fi
+
 #Change mach-o to fake static
 ./feature-module-static.rb
 
