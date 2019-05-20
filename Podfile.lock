@@ -4,6 +4,7 @@ PODS:
     - Charts/Core (= 3.2.1)
   - Charts/Core (3.2.1)
   - Cuckoo (1.0.3)
+  - FLEX (2.4.0)
   - Nimble (8.0.1)
   - Quick (2.1.0)
 
@@ -11,6 +12,7 @@ DEPENDENCIES:
   - Alamofire (= 4.8.1)
   - Charts (= 3.2.1)
   - Cuckoo (= 1.0.3)
+  - FLEX (= 2.4.0)
   - Nimble (= 8.0.1)
   - Quick (= 2.1.0)
 
@@ -19,6 +21,7 @@ SPEC REPOS:
     - Alamofire
     - Charts
     - Cuckoo
+    - FLEX
     - Nimble
     - Quick
 
@@ -26,9 +29,10 @@ SPEC CHECKSUMS:
   Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
   Charts: f122fb70b19847fa5817d018b77d6c5a2296ab25
   Cuckoo: eb8cd1bee8730af1cfa39e3e1305c32bc47fe4b8
+  FLEX: bd1a39e55b56bb413b6f1b34b3c10a0dc44ef079
   Nimble: 45f786ae66faa9a709624227fae502db55a8bdd0
   Quick: 4be43f6634acfa727dd106bdf3929ce125ffa79d
 
-PODFILE CHECKSUM: 9d7ed855aa140cc1671fccfe0e49071f143f21e3
+PODFILE CHECKSUM: 7a04f03a243f86c641d23e156b14b771e1e812da
 
 COCOAPODS: 1.6.1

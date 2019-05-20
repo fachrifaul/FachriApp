@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Identifier</key>
+	<string>br.com.guilhermerambo.iosbundletemplate</string>
+	<key>Ancestors</key>
+	<array>
+		<string>com.apple.dt.unit.bundleBase</string>
+		<string>com.apple.dt.unit.iosBase</string>
+	</array>
+	<key>Concrete</key>
+	<true/>
+	<key>Description</key>
+	<string>This template builds an iOS resources bundle</string>
+	<key>SortOrder</key>
+	<integer>101</integer>
+	<key>Targets</key>
+	<array>
+		<dict>
+			<key>ProductType</key>
+			<string>com.apple.product-type.bundle</string>
+			<key>TargetIdentifier</key>
+			<string>com.apple.dt.bundleTarget</string>
+			<key>SharedSettings</key>
+			<dict>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Bundles</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>___VARIABLE_bundleExtension___</string>
+				<key>COMBINE_HIDPI_IMAGES</key>
+				<string>YES</string>
+			</dict>
+			<key>BuildPhases</key>
+			<array>
+				<dict>
+					<key>Class</key>
+					<string>Resources</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>bundleExtension</string>
+			<key>Name</key>
+			<string>Bundle Extension:</string>
+			<key>Description</key>
+			<string>The path extension to use for this bundle</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>bundle</string>
+		</dict>
+	</array>
+	<key>Nodes</key>
+	<array>
+		<string>Info.plist:bundle</string>
+		<string>Info.plist:NSHumanReadableCopyright</string>
+	</array>
+	<key>Definitions</key>
+	<dict>
+		<key>Info.plist:bundle</key>
+		<string>&lt;key&gt;CFBundlePackageType&lt;/key&gt;
+&lt;string&gt;BNDL&lt;/string&gt;
+&lt;key&gt;NSPrincipalClass&lt;/key&gt;
+&lt;string&gt;&lt;/string&gt;
+</string>
+	</dict>
+</dict>
+</plist>

@@ -33,7 +33,10 @@ class ViewController: UIViewController {
             }
         }
     }
-
+    
+    @IBAction func accountVCAction(_ sender: Any) {
+        navigationController?.pushViewController(Account.ViewController(), animated: true)
+    }
 
 }
 

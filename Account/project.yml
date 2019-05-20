@@ -12,6 +12,7 @@ targets:
     sources:
       - Account/
     dependencies:
+      - target: AccountResources
       - sdk: CoreText.framework
   AccountTests:
     type: bundle.unit-test
@@ -20,4 +21,9 @@ targets:
       - AccountTests/
     dependencies:
       - target: Account
+  AccountResources:
+    type: bundle
+    platform: iOS
+    sources: 
+      - AccountResources/
       

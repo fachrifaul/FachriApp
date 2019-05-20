@@ -21,6 +21,7 @@ pod install
 
 #Workspace grouping
 cp -R "contents.xcworkspacedata" "FachriApp.xcworkspace/contents.xcworkspacedata" 
+cp -R "FachriApp_all_tests.xcscheme" "FachriApp.xcodeproj/xcshareddata/xcschemes/FachriApp_all_tests.xcscheme"
 
 
 xcodeproj="xcodeproj"
