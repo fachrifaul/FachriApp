@@ -24,9 +24,10 @@ def test_helper_pods
 end
 
 target 'FachriApp' do
-  use_frameworks!
   pods
   pod 'FLEX', '2.4.0', :configurations => ['Debug']
+  pod 'LifetimeTracker'
+  
   target 'FachriAppTests' do
     inherit! :search_paths
     test_helper_pods

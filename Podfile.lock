@@ -5,6 +5,7 @@ PODS:
   - Charts/Core (3.2.1)
   - Cuckoo (1.0.3)
   - FLEX (2.4.0)
+  - LifetimeTracker (1.6.0)
   - Nimble (8.0.1)
   - Quick (2.1.0)
 
@@ -13,6 +14,7 @@ DEPENDENCIES:
   - Charts (= 3.2.1)
   - Cuckoo (= 1.0.3)
   - FLEX (= 2.4.0)
+  - LifetimeTracker
   - Nimble (= 8.0.1)
   - Quick (= 2.1.0)
 
@@ -22,6 +24,7 @@ SPEC REPOS:
     - Charts
     - Cuckoo
     - FLEX
+    - LifetimeTracker
     - Nimble
     - Quick
 
@@ -30,9 +33,10 @@ SPEC CHECKSUMS:
   Charts: f122fb70b19847fa5817d018b77d6c5a2296ab25
   Cuckoo: eb8cd1bee8730af1cfa39e3e1305c32bc47fe4b8
   FLEX: bd1a39e55b56bb413b6f1b34b3c10a0dc44ef079
+  LifetimeTracker: 8b7f2979fa70a41e9aaff63d158cae7a027eef10
   Nimble: 45f786ae66faa9a709624227fae502db55a8bdd0
   Quick: 4be43f6634acfa727dd106bdf3929ce125ffa79d
 
-PODFILE CHECKSUM: 7a04f03a243f86c641d23e156b14b771e1e812da
+PODFILE CHECKSUM: 9025562dfa6cdcb2df465a63c2785eca08573ba1
 
 COCOAPODS: 1.6.1

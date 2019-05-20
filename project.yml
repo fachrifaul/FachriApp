@@ -17,6 +17,7 @@ targets:
     dependencies:
       - sdk: Account.framework
         implicit: true
+      # - target: AccountResources
       - framework: Core.framework
         implicit: true
       - sdk: CoreText.framework
@@ -30,3 +31,37 @@ targets:
       - FachriAppTests
     dependencies:
       - target: FachriApp
+  # Account:
+  #   platform: iOS
+  #   type: framework
+  #   sources:
+  #     - Account/Account/
+  #   dependencies:
+  #     - target: AccountResources
+  #     - sdk: CoreText.framework
+  # AccountTests:
+  #   type: bundle.unit-test
+  #   platform: iOS
+  #   sources: 
+  #     - Account/AccountTests/
+  #   dependencies:
+  #     - target: Account
+  # AccountResources:
+  #   type: bundle
+  #   platform: iOS
+  #   sources: 
+  #     - Account/AccountResources/
+  # Core:
+  #   platform: iOS
+  #   type: framework
+  #   sources:
+  #     - Core/Core/
+  #   dependencies:
+  #     - sdk: CoreText.framework
+  # CoreTests:
+  #   type: bundle.unit-test
+  #   platform: iOS
+  #   sources: 
+  #     - Core/CoreTests/
+  #   dependencies:
+  #     - target: Core

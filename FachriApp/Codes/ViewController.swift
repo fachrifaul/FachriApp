@@ -34,6 +34,10 @@ class ViewController: UIViewController {
         }
     }
     
+    @IBAction func coreVCAction(_ sender: Any) {
+        navigationController?.pushViewController(Core.ViewController(), animated: true)
+    }
+    
     @IBAction func accountVCAction(_ sender: Any) {
         navigationController?.pushViewController(Account.ViewController(), animated: true)
     }

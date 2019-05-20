@@ -25,11 +25,20 @@
                                     <action selector="accountVCAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S1J-Xs-jrj"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XLz-83-msA">
+                                <rect key="frame" x="180.5" y="373" width="53" height="30"/>
+                                <state key="normal" title="CoreVC"/>
+                                <connections>
+                                    <action selector="coreVCAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Wv-Mk-ovS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="p3r-Tl-0ij" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="6lM-45-7dp"/>
                             <constraint firstItem="p3r-Tl-0ij" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TRY-62-Sda"/>
+                            <constraint firstItem="XLz-83-msA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UTK-aM-ITt"/>
+                            <constraint firstItem="p3r-Tl-0ij" firstAttribute="top" secondItem="XLz-83-msA" secondAttribute="bottom" constant="30" id="XJf-iC-y27"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
