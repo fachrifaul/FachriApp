@@ -11,6 +11,13 @@ targets:
     platform: iOS
     sources:
       - FachriApp
+      # - path: Account/AccountResources
+      # - target: AccountResources
+      # - path: Account/AccountResources
+      #   buildPhase:
+      #     copyFiles:
+      #       destination: plugins
+      #       subpath: include/$(PRODUCT_NAME)
     scheme:
       testTargets:
         - FachriAppTests
@@ -51,6 +58,7 @@ targets:
   #   platform: iOS
   #   sources: 
   #     - Account/AccountResources/
+  #     - path: Account/AccountResources/
   # Core:
   #   platform: iOS
   #   type: framework
