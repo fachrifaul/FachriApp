@@ -23,7 +23,6 @@ public class ViewController: UIViewController {
         let width: CGFloat = UIScreen.main.bounds.width - 100
         imageView.frame = CGRect(x: 0, y: 0, width: width, height: 100)
         imageView.image = UIImage.sampleImage(named: "navlogo_red1")
-//        imageView.image = UIImage(named: "navlogo_red")
         imageView.contentMode = .scaleAspectFit
         view.addSubview(imageView)
         

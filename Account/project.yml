@@ -26,4 +26,5 @@ targets:
     platform: iOS
     sources: 
       - AccountResources/
+      - path: AccountResources
       
